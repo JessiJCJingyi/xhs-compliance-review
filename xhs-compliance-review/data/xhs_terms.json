@@ -1,0 +1,756 @@
+{
+  "version": "2026-07-31.1",
+  "updated_at": "2026-07-31",
+  "notes": "Zero-API local Xiaohongshu compliance terms. Public-source inspired, not an official exhaustive banned-word list.",
+  "disclaimers": [
+    "不构成投资建议",
+    "不是投资建议",
+    "不是买卖建议",
+    "仅供交流",
+    "仅分享研究流程"
+  ],
+  "finance_hints": [
+    "股票",
+    "美股",
+    "A股",
+    "港股",
+    "买入",
+    "卖出",
+    "持仓",
+    "收益",
+    "估值",
+    "财报",
+    "投资",
+    "牛股",
+    "标的"
+  ],
+  "terms": [
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "主页有惊喜",
+      "reason": "诱导站内/站外转化风险",
+      "suggestion": "删除行动引导，改为公开信息说明。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "链接在评论区",
+      "reason": "站外导流风险",
+      "suggestion": "删除链接引导。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "评论区领取",
+      "reason": "诱导互动/导流风险",
+      "suggestion": "改为公开说明，不设置领取门槛。",
+      "replacement": "公开说明"
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "注册链接",
+      "reason": "小红书导流和合规转化风险",
+      "suggestion": "删除或交人工审核。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "邀请链接",
+      "reason": "导流/转化风险",
+      "suggestion": "删除或交人工审核。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "购买链接",
+      "reason": "面向平台用户购买 CTA 风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "充值",
+      "reason": "金融/付费转化风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "荐股群",
+      "reason": "付费荐股/导流风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "导流转化",
+      "phrase": "收益群",
+      "reason": "收益承诺/导流风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "现在买",
+      "reason": "像直接买卖建议",
+      "suggestion": "改为“我会继续观察这类信号”。",
+      "replacement": "继续观察"
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "明天上车",
+      "reason": "引导跟单和时点操作",
+      "suggestion": "删除时点操作，改为研究过程描述。",
+      "replacement": "后续再验证"
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "直接买",
+      "reason": "像直接买卖建议",
+      "suggestion": "改为“不是买卖建议，仅记录判断”。",
+      "replacement": "继续研究"
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "跟着我买",
+      "reason": "引导跟单",
+      "suggestion": "删除整句。",
+      "replacement": "仅记录我的研究过程"
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "直接抄作业",
+      "reason": "引导跟单",
+      "suggestion": "改为“记录我的研究框架”。",
+      "replacement": "参考研究框架"
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "实时喊单",
+      "reason": "付费/实时荐股风险",
+      "suggestion": "删除整句。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "付费荐股",
+      "reason": "明确荐股风险",
+      "suggestion": "删除整句。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "梭哈",
+      "reason": "诱导高风险交易",
+      "suggestion": "删除或改为风险提示。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "满仓",
+      "reason": "诱导高风险仓位",
+      "suggestion": "删除仓位建议。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "投资指令",
+      "phrase": "目标价",
+      "reason": "可能构成具体投资建议",
+      "suggestion": "改为“市场预期/估值假设之一”。",
+      "replacement": "估值假设"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "稳赚不赔",
+      "reason": "收益承诺",
+      "suggestion": "改为“存在亏损风险”。",
+      "replacement": "结果不确定"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "稳赚",
+      "reason": "收益承诺",
+      "suggestion": "改为“结果不确定”。",
+      "replacement": "有不确定性"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "必涨",
+      "reason": "确定性收益暗示",
+      "suggestion": "改为“可能受多因素影响”。",
+      "replacement": "存在多种可能"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "保收益",
+      "reason": "收益承诺",
+      "suggestion": "删除。",
+      "replacement": "不承诺收益"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "无风险",
+      "reason": "误导性风险表述",
+      "suggestion": "改为“风险需要自行判断”。",
+      "replacement": "需要自行评估风险"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "躺赚",
+      "reason": "夸大收益",
+      "suggestion": "删除。",
+      "replacement": "结果不确定"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "暴富",
+      "reason": "夸大收益",
+      "suggestion": "删除。",
+      "replacement": "结果不确定"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "翻倍",
+      "reason": "收益刺激和夸大承诺风险",
+      "suggestion": "如无合规批准，删除收益表达。",
+      "replacement": "存在波动和不确定性"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "100%有效",
+      "reason": "绝对化效果承诺",
+      "suggestion": "改为“可能有帮助/因人而异”。",
+      "replacement": "可能有帮助"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "彻底解决",
+      "reason": "绝对化效果承诺",
+      "suggestion": "改为“改善/缓解/减少”。",
+      "replacement": "改善"
+    },
+    {
+      "severity": "red",
+      "category": "未批准指标",
+      "phrase": "方向正确率",
+      "reason": "未批准投资表现指标",
+      "suggestion": "删除。",
+      "replacement": "历史观察"
+    },
+    {
+      "severity": "red",
+      "category": "未批准指标",
+      "phrase": "准确率",
+      "reason": "未批准产品/投资表现指标",
+      "suggestion": "删除或改成定性体验。",
+      "replacement": "历史观察"
+    },
+    {
+      "severity": "red",
+      "category": "未批准指标",
+      "phrase": "收益率",
+      "reason": "收益展示需人工审核",
+      "suggestion": "改为过程复盘，避免用收益作承诺。",
+      "replacement": "收益情况"
+    },
+    {
+      "severity": "red",
+      "category": "产品硬声称",
+      "phrase": "下一只牛股",
+      "reason": "AI/产品荐股暗示",
+      "suggestion": "改为“研究线索/待验证假设”。",
+      "replacement": "一个待验证的研究线索"
+    },
+    {
+      "severity": "red",
+      "category": "产品硬声称",
+      "phrase": "自动赚钱",
+      "reason": "夸大产品能力和收益承诺",
+      "suggestion": "改为“辅助整理研究依据”。",
+      "replacement": "辅助整理研究依据"
+    },
+    {
+      "severity": "red",
+      "category": "灰产/欺诈",
+      "phrase": "刷单",
+      "reason": "平台高风险灰产表达",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "灰产/欺诈",
+      "phrase": "高仿",
+      "reason": "假冒/侵权风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "red",
+      "category": "灰产/欺诈",
+      "phrase": "复刻",
+      "reason": "假冒/侵权风险",
+      "suggestion": "改为真实来源和授权说明。",
+      "replacement": "同风格"
+    },
+    {
+      "severity": "red",
+      "category": "灰产/欺诈",
+      "phrase": "日赚",
+      "reason": "赚钱承诺和诱导风险",
+      "suggestion": "删除收益刺激。",
+      "replacement": "收入不确定"
+    },
+    {
+      "severity": "red",
+      "category": "灰产/欺诈",
+      "phrase": "暴利",
+      "reason": "赚钱承诺和诱导风险",
+      "suggestion": "删除收益刺激。",
+      "replacement": "高波动"
+    },
+    {
+      "severity": "red",
+      "category": "医美/功效",
+      "phrase": "治疗",
+      "reason": "医疗功效表达风险",
+      "suggestion": "改为“改善/辅助护理”，并确认资质。",
+      "replacement": "改善"
+    },
+    {
+      "severity": "red",
+      "category": "医美/功效",
+      "phrase": "根治",
+      "reason": "医疗功效绝对承诺",
+      "suggestion": "删除或改为“有助于改善”。",
+      "replacement": "有助于改善"
+    },
+    {
+      "severity": "red",
+      "category": "医美/功效",
+      "phrase": "治愈",
+      "reason": "医疗功效绝对承诺",
+      "suggestion": "删除或改为“有助于改善”。",
+      "replacement": "有助于改善"
+    },
+    {
+      "severity": "red",
+      "category": "医美/功效",
+      "phrase": "药用",
+      "reason": "医疗/药品暗示",
+      "suggestion": "删除或提供合规资质。",
+      "replacement": "护理"
+    },
+    {
+      "severity": "red",
+      "category": "医美/功效",
+      "phrase": "消炎",
+      "reason": "医疗功效表达风险",
+      "suggestion": "删除或提供合规资质。",
+      "replacement": "舒缓"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "全网第一",
+      "reason": "绝对化排名表达",
+      "suggestion": "如无来源，改为“很多人关注/我常用”。",
+      "replacement": "很多人关注的"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "最强",
+      "reason": "绝对化营销表达",
+      "suggestion": "改为具体场景收益。",
+      "replacement": "我常用的"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "第一",
+      "reason": "绝对化排名表达",
+      "suggestion": "除非有来源，否则改为“我常用”。",
+      "replacement": "我常用"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "顶级",
+      "reason": "夸大表达",
+      "suggestion": "改为具体能力描述。",
+      "replacement": "比较成熟"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "神器",
+      "reason": "夸大产品能力",
+      "suggestion": "改为“工具/功能”。",
+      "replacement": "工具"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "秒懂",
+      "reason": "夸大效率",
+      "suggestion": "改为“更快理解”。",
+      "replacement": "更快理解"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "必看",
+      "reason": "强刺激标题",
+      "suggestion": "改为具体读者收益。",
+      "replacement": "值得参考"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "爆赚",
+      "reason": "收益刺激",
+      "suggestion": "删除或改为风险中性表达。",
+      "replacement": "波动较大"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "逆天",
+      "reason": "夸张表达",
+      "suggestion": "改为具体观察。",
+      "replacement": "明显"
+    },
+    {
+      "severity": "yellow",
+      "category": "夸大营销",
+      "phrase": "震惊",
+      "reason": "标题党风险",
+      "suggestion": "改为事实描述。",
+      "replacement": "意外"
+    },
+    {
+      "severity": "yellow",
+      "category": "投资软建议",
+      "phrase": "看好这只",
+      "reason": "可能被理解为方向建议",
+      "suggestion": "改为“我在关注这家公司的一项变化”。",
+      "replacement": "关注这家公司"
+    },
+    {
+      "severity": "yellow",
+      "category": "投资软建议",
+      "phrase": "可以上车",
+      "reason": "跟单暗示",
+      "suggestion": "改为“适合继续研究”。",
+      "replacement": "可以继续研究"
+    },
+    {
+      "severity": "yellow",
+      "category": "投资软建议",
+      "phrase": "低位机会",
+      "reason": "方向和收益暗示",
+      "suggestion": "改为“估值/位置需要结合风险看”。",
+      "replacement": "一个需要结合风险看的位置"
+    },
+    {
+      "severity": "yellow",
+      "category": "投资软建议",
+      "phrase": "不要错过",
+      "reason": "行动催促",
+      "suggestion": "改为“值得记录”。",
+      "replacement": "值得记录"
+    },
+    {
+      "severity": "yellow",
+      "category": "投资软建议",
+      "phrase": "机会来了",
+      "reason": "行动催促",
+      "suggestion": "改为“出现一个值得研究的变化”。",
+      "replacement": "出现一个值得研究的变化"
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "求关注",
+      "reason": "诱导关注风险",
+      "suggestion": "改为自然互动，不直接求关注。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "关注我",
+      "reason": "诱导关注风险",
+      "suggestion": "删除或改为中性署名。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "加V",
+      "reason": "站外联系方式/导流风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "私信",
+      "reason": "私域导流和一对一建议风险",
+      "suggestion": "如必须保留，说明不提供买卖建议。",
+      "replacement": "评论区交流"
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "加我",
+      "reason": "私域导流",
+      "suggestion": "删除或改为公开评论讨论。",
+      "replacement": "公开交流"
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "进群",
+      "reason": "私域导流",
+      "suggestion": "删除。",
+      "replacement": "公开讨论"
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "微信",
+      "reason": "站外导流",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "VX",
+      "reason": "站外导流",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "公众号",
+      "reason": "站外平台导流风险",
+      "suggestion": "删除或改为站内公开讨论。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "淘宝",
+      "reason": "站外交易导流风险",
+      "suggestion": "删除或交人工审核。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "店铺",
+      "reason": "交易转化导流风险",
+      "suggestion": "改为品牌/产品信息，不引导交易。",
+      "replacement": "产品信息"
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "购买",
+      "reason": "交易转化 CTA 风险",
+      "suggestion": "改为“了解/查看信息”。",
+      "replacement": "了解"
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "下单",
+      "reason": "交易转化 CTA 风险",
+      "suggestion": "删除或交人工审核。",
+      "replacement": "查看"
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "链接",
+      "reason": "导流风险",
+      "suggestion": "删除或交人工审核。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "私域导流",
+      "phrase": "扫码",
+      "reason": "站外导流",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "权威背书",
+      "phrase": "官方认证",
+      "reason": "背书真实性风险",
+      "suggestion": "除非可证明，否则删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "权威背书",
+      "phrase": "权威推荐",
+      "reason": "背书真实性风险",
+      "suggestion": "改为来源明确的事实。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "权威背书",
+      "phrase": "专家保证",
+      "reason": "误导性背书",
+      "suggestion": "删除保证表达。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "敏感来源",
+      "phrase": "内幕",
+      "reason": "内幕信息风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "敏感来源",
+      "phrase": "内部消息",
+      "reason": "内幕信息风险",
+      "suggestion": "删除。",
+      "replacement": ""
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "暴瘦",
+      "reason": "夸大身材/减重效果",
+      "suggestion": "改为“体态管理/阶段变化”。",
+      "replacement": "体态变化"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "躺瘦",
+      "reason": "夸大身材/减重效果",
+      "suggestion": "删除。",
+      "replacement": "体态管理"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "换肤",
+      "reason": "医美/功效风险",
+      "suggestion": "改为“肤感改善/妆效变化”。",
+      "replacement": "肤感改善"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "整形",
+      "reason": "医美敏感表达",
+      "suggestion": "确认资质和平台规则，必要时删除。",
+      "replacement": "外观调整"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "微整",
+      "reason": "医美敏感表达",
+      "suggestion": "确认资质和平台规则，必要时删除。",
+      "replacement": "外观调整"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "打针",
+      "reason": "医美/医疗场景敏感",
+      "suggestion": "确认资质和平台规则，必要时删除。",
+      "replacement": "护理项目"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "纯植物",
+      "reason": "成分绝对化或需证明",
+      "suggestion": "改为“含植物来源成分”。",
+      "replacement": "含植物来源成分"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "无添加",
+      "reason": "绝对化成分表达，需证明",
+      "suggestion": "改为具体不含成分。",
+      "replacement": "少添加"
+    },
+    {
+      "severity": "yellow",
+      "category": "医美/功效",
+      "phrase": "速效",
+      "reason": "效果承诺风险",
+      "suggestion": "改为“使用后感受/阶段变化”。",
+      "replacement": "阶段变化"
+    },
+    {
+      "severity": "yellow",
+      "category": "赚钱兼职",
+      "phrase": "赚钱",
+      "reason": "赚钱诱导风险",
+      "suggestion": "改为“经验分享/成本记录”。",
+      "replacement": "经验分享"
+    },
+    {
+      "severity": "yellow",
+      "category": "赚钱兼职",
+      "phrase": "兼职",
+      "reason": "招聘/灰产语境需复核",
+      "suggestion": "改为具体合法场景，避免收益诱导。",
+      "replacement": "项目经历"
+    }
+  ],
+  "last_public_source_check_at": "2026-07-31",
+  "public_sources": [
+    "https://www.zhanghaobang.cn/tools/word-checker",
+    "https://weijincha.com/xhs/",
+    "https://xhs.jvxiao.cn/",
+    "https://ad.xiaohongshu.com/next_help/docs/8dc5bd9c45c9a90cb9912f3400d43f92"
+  ]
+}

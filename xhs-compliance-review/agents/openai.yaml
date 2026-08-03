@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书合规快审"
+  short_description: "筛查小红书违禁词、导流词和金融合规风险。"
+  default_prompt: "帮我用小红书合规快审检查这段文案"
