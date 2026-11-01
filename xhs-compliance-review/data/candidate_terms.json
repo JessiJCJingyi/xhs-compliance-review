@@ -1,4 +1,85 @@
 {
-  "version": "template",
-  "terms": []
+  "updated_at": "2026-10-12",
+  "terms": [
+    {
+      "phrase": "+V",
+      "suggested_severity": "yellow",
+      "category": "私域导流",
+      "reason": "聚光公开规则列为变体联系方式，但短字符串容易在非导流语境误报。",
+      "source": "https://ad.xiaohongshu.com/next_help/docs/8dc5bd9c45c9a90cb9912f3400d43f92",
+      "status": "待语境规则支持"
+    },
+    {
+      "phrase": "主页有微",
+      "suggested_severity": "red",
+      "category": "私域导流",
+      "reason": "聚光公开规则列为隐晦联系方式，需确认是否与现有变体覆盖策略合并。",
+      "source": "https://ad.xiaohongshu.com/next_help/docs/8dc5bd9c45c9a90cb9912f3400d43f92",
+      "status": "待确认变体策略"
+    },
+    {
+      "phrase": "竞品质量差",
+      "suggested_severity": "yellow",
+      "category": "不正当竞争",
+      "reason": "治理公告禁止无事实依据的竞品负面信息；单独按词命中无法判断证据是否充分。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=8c0b127f03a949d71f1f218a55e7d7f6&userType=4",
+      "status": "需人工判断事实依据"
+    },
+    {
+      "phrase": "升值",
+      "suggested_severity": "yellow",
+      "category": "金融投资",
+      "reason": "蒲公英公开规范将其列入金融投资风险表达，但单词可用于非承诺性的客观讨论，直接命中容易误报。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+      "status": "待语境规则支持"
+    },
+    {
+      "phrase": "众筹",
+      "suggested_severity": "yellow",
+      "category": "金融投资",
+      "reason": "蒲公英公开规范将其列入金融投资风险表达，但可能出现在新闻或方法讨论中，需结合招募、回报等语境判断。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+      "status": "待语境规则支持"
+    },
+    {
+      "phrase": "dd我",
+      "suggested_severity": "yellow",
+      "category": "私域导流",
+      "reason": "公开规则在间接引导站外咨询或交易语境列举；站内正常交流需区分。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+      "status": "待语境规则支持"
+    },
+    {
+      "phrase": "看我主页",
+      "suggested_severity": "yellow",
+      "category": "私域导流",
+      "reason": "公开规则在间接引导站外咨询或交易语境列举；站内正常交流需区分。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+      "status": "待语境规则支持"
+    },
+    {
+      "phrase": "看我置顶",
+      "suggested_severity": "yellow",
+      "category": "私域导流",
+      "reason": "公开规则在间接引导站外咨询或交易语境列举；站内正常交流需区分。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+      "status": "待语境规则支持"
+    },
+    {
+      "phrase": "红黑榜",
+      "suggested_severity": "yellow",
+      "category": "不正当竞争",
+      "reason": "公开规则涉及不公正的竞品排序，不能将所有榜单一概判违规。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+      "status": "待语境规则支持"
+    },
+    {
+      "phrase": "医生推荐",
+      "suggested_severity": "yellow",
+      "category": "医疗健康合作笔记推荐背书",
+      "reason": "官方行业资质要求页面显示2026-10-09，公告涉及医疗健康合作笔记中的医生等身份推荐；执行时间及标准另行通知，词面不能区分新闻、科普与商业推荐。",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=e0cbd1954fe7364ea0201ba2099affdf&userType=4",
+      "status": "待执行通知及商业推荐语境确认"
+    }
+  ]
 }

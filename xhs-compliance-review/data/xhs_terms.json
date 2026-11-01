@@ -1,7 +1,7 @@
 {
-  "version": "2026-07-31.1",
-  "updated_at": "2026-07-31",
-  "notes": "Zero-API local Xiaohongshu compliance terms. Public-source inspired, not an official exhaustive banned-word list.",
+  "version": "2026-09-28.manual-3",
+  "updated_at": "2026-11-01",
+  "notes": "Zero-API local Xiaohongshu compliance terms for ARTi. Public-source inspired, not an official exhaustive banned-word list.",
   "disclaimers": [
     "不构成投资建议",
     "不是投资建议",
@@ -744,13 +744,215 @@
       "reason": "招聘/灰产语境需复核",
       "suggestion": "改为具体合法场景，避免收益诱导。",
       "replacement": "项目经历"
+    },
+    {
+      "severity": "red",
+      "category": "私域导流",
+      "phrase": "V我",
+      "reason": "聚光公开规则明确列出的变体站外联系方式",
+      "suggestion": "删除联系方式暗示，保留站内公开信息。",
+      "replacement": "",
+      "source": "小红书聚光内容审核规则总则"
+    },
+    {
+      "severity": "red",
+      "category": "私域导流",
+      "phrase": "主页联系我",
+      "reason": "聚光公开规则明确列出的站外导流表达",
+      "suggestion": "删除行动引导。",
+      "replacement": "",
+      "source": "小红书聚光内容审核规则总则"
+    },
+    {
+      "severity": "red",
+      "category": "私域导流",
+      "phrase": "头像有微",
+      "reason": "聚光公开规则明确列出的隐晦联系方式",
+      "suggestion": "删除联系方式暗示。",
+      "replacement": "",
+      "source": "小红书聚光内容审核规则总则"
+    },
+    {
+      "severity": "red",
+      "category": "夸大营销",
+      "phrase": "完全有效",
+      "reason": "蒲公英公开规则明确限制不符合常识的效果保证",
+      "suggestion": "改为有条件、可验证的体验描述。",
+      "replacement": "可能有帮助",
+      "source": "小红书蒲公英内容审核规范"
+    },
+    {
+      "severity": "red",
+      "category": "夸大营销",
+      "phrase": "适用于所有人",
+      "reason": "蒲公英公开规则明确限制无条件适用承诺",
+      "suggestion": "说明适用条件和个体差异。",
+      "replacement": "适用情况因人而异",
+      "source": "小红书蒲公英内容审核规范"
+    },
+    {
+      "severity": "red",
+      "category": "夸大营销",
+      "phrase": "永远不出错",
+      "reason": "蒲公英公开规则明确限制绝对服务保证",
+      "suggestion": "改为客观能力边界和可能误差。",
+      "replacement": "仍可能出现误差",
+      "source": "小红书蒲公英内容审核规范"
+    },
+    {
+      "severity": "red",
+      "category": "夸大营销",
+      "phrase": "毫无缺陷",
+      "reason": "蒲公英公开规则明确限制绝对产品保证",
+      "suggestion": "改为具体、可证明的产品特征。",
+      "replacement": "",
+      "source": "小红书蒲公英内容审核规范"
+    },
+    {
+      "severity": "yellow",
+      "category": "不正当竞争",
+      "phrase": "踩一捧一",
+      "reason": "蒲公英治理公告明确列为不公正横向测评风险",
+      "suggestion": "使用有依据、同口径的客观比较，避免贬损竞品。",
+      "replacement": "客观对比",
+      "source": "蒲公英不正当商业竞争行为治理公告"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "包回报",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除回报承诺，改为说明风险和不确定性。",
+      "replacement": "回报存在不确定性",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "投资回报",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "避免以回报吸引用户，改为研究过程或风险说明。",
+      "replacement": "投资结果",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "保底收益",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除保底承诺，明确存在亏损风险。",
+      "replacement": "收益不确定",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "返本销售",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除返本承诺和相关销售诱导。",
+      "replacement": "",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "承诺保底",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除保底承诺，改为客观风险提示。",
+      "replacement": "不承诺结果",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "保本稳赚",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除保本和稳赚暗示。",
+      "replacement": "存在本金损失风险",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "无风险回报",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除无风险暗示，明确可能亏损。",
+      "replacement": "回报伴随风险",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "快速回报",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除快速获利暗示。",
+      "replacement": "结果需要长期观察",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "高收益回报",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除高收益刺激，改为风险与不确定性说明。",
+      "replacement": "结果存在波动",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "固定回报",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "删除固定回报承诺。",
+      "replacement": "回报不确定",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "收益承诺",
+      "phrase": "年化收益",
+      "reason": "蒲公英公开内容审核规范明确列出的金融投资违规表达",
+      "suggestion": "不要用年化收益吸引或承诺结果；确需事实披露时转人工审核。",
+      "replacement": "历史结果",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "夸大营销",
+      "phrase": "无任何负面问题",
+      "reason": "蒲公英公开规范在产品宣传场景列明的绝对效果承诺；本地保守提示，引用或否定语境需人工复核。",
+      "suggestion": "删除绝对承诺，说明有依据的适用条件和能力边界。",
+      "replacement": "仍需关注使用限制",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "夸大营销",
+      "phrase": "超越所有竞争产品",
+      "reason": "蒲公英公开规范在产品宣传场景列明的绝对效果承诺；本地保守提示，引用或否定语境需人工复核。",
+      "suggestion": "删除绝对承诺，说明有依据的适用条件和能力边界。",
+      "replacement": "",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+    },
+    {
+      "severity": "red",
+      "category": "夸大营销",
+      "phrase": "所有情况适用",
+      "reason": "蒲公英公开规范在产品宣传场景列明的绝对效果承诺；本地保守提示，引用或否定语境需人工复核。",
+      "suggestion": "删除绝对承诺，说明有依据的适用条件和能力边界。",
+      "replacement": "适用情况需逐项确认",
+      "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
     }
   ],
-  "last_public_source_check_at": "2026-07-31",
+  "last_public_source_check_at": "2026-11-01",
   "public_sources": [
+    "https://ad.xiaohongshu.com/next_help/docs/8dc5bd9c45c9a90cb9912f3400d43f92",
+    "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+    "https://ad.xiaohongshu.com/next_help/docs/195c5fe505c71b4b0335a2fe0d61d8e0",
+    "https://pgy.xiaohongshu.com/help/detail?id=8c0b127f03a949d71f1f218a55e7d7f6&userType=4",
+    "https://pgy.xiaohongshu.com/faq",
     "https://www.zhanghaobang.cn/tools/word-checker",
     "https://weijincha.com/xhs/",
-    "https://xhs.jvxiao.cn/",
-    "https://ad.xiaohongshu.com/next_help/docs/8dc5bd9c45c9a90cb9912f3400d43f92"
+    "https://xhs.jvxiao.cn/"
   ]
 }
