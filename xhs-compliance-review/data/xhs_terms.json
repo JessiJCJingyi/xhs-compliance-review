@@ -1,6 +1,6 @@
 {
   "version": "2026-09-28.manual-3",
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-02",
   "notes": "Zero-API local Xiaohongshu compliance terms for ARTi. Public-source inspired, not an official exhaustive banned-word list.",
   "disclaimers": [
     "不构成投资建议",
@@ -944,7 +944,7 @@
       "source": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
     }
   ],
-  "last_public_source_check_at": "2026-11-01",
+  "last_public_source_check_at": "2026-11-02",
   "public_sources": [
     "https://ad.xiaohongshu.com/next_help/docs/8dc5bd9c45c9a90cb9912f3400d43f92",
     "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
